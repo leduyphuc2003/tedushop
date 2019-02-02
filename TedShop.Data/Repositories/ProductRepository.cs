@@ -1,9 +1,9 @@
 ﻿using TeduShop.Data.Infrastructure;
 using TeduShop.Model.Models;
 
-namespace TedShop.Data.Repositories
-{
-    public interface IProductRepository
+namespace TeduShop.Data.Repositories
+{ 
+    public interface IProductRepository : IRepository<Product>
     {
     }
 
